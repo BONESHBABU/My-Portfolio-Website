@@ -1,4 +1,4 @@
-# 👨‍💻 Bonesh Babu – Personal Portfolio Website
+# 👨‍💻 Kotti Bonesh Babu – Personal Portfolio Website
 
 Welcome to my personal portfolio! This website showcases my technical skills, projects, professional interests, and journey as a **Python Full Stack Developer**.
 
