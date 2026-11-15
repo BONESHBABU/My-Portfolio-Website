@@ -14,7 +14,6 @@ import {
   HeartHandshake,
   Layers3,
   Mail,
-  MapPin,
   Menu,
   Phone,
   Send,
@@ -204,9 +203,10 @@ function Portfolio() {
   }, []);
 
   useEffect(() => {
-    const timer = window.setInterval(() => setTitleIndex((index) => (index + 1) % titles.length), 3600);
+    const titleOptions = ["Python Full Stack Developer", "Python Developer", "Web Application Developer"];
+    const timer = window.setInterval(() => setTitleIndex((index) => (index + 1) % titleOptions.length), 3600);
     return () => window.clearInterval(timer);
-  }, [titles.length]);
+  }, []);
 
   function handleContactSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
